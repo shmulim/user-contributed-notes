@@ -1,0 +1,12 @@
+{
+  "generator-mocha": {},
+  "generator-backbone": {
+    "appPath": "app",
+    "appName": "Ucn",
+    "coffee": false,
+    "testFramework": "mocha",
+    "templateFramework": "lodash",
+    "sassBootstrap": false,
+    "includeRequireJS": true
+  }
+}
