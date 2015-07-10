@@ -2,17 +2,18 @@
 'use strict';
 
 require.config({
-    shim: {
-    },
+    shim: {},
     paths: {
         jquery: '../bower_components/jquery/dist/jquery',
         backbone: '../bower_components/backbone/backbone',
-        underscore: '../bower_components/lodash/dist/lodash'
+        underscore: '../bower_components/lodash/dist/lodash',
+        app: '/app'
     }
 });
 
 require([
-    'backbone'
-], function (Backbone) {
+    'backbone', 'app'
+], function(Backbone, App) {
     Backbone.history.start();
+    App.initialize();
 });

@@ -29,6 +29,6 @@
         "expect": true,
         "should": true,
         "require": false,
-        "define": false
+        "define": true
     }
 }
