@@ -6,7 +6,8 @@ define(['jquery', 'underscore', 'backbone'],
             attributes: {
                 emailAddress: null,
                 comment: null,
-                securityQuestion: null
+                securityQuestion: null,
+                timestamp: null
             },
             
             initialize: function () {
